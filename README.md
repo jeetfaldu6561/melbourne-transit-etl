@@ -7,7 +7,7 @@ This data engineering project analyzes the coverage and accessibility of public 
 ## 📁 Project Structure
 
 ```text
-gtfs-melbourne-public-transport-etl/
+melbourne-transit-etl/
 ├── sql/
 │   ├── 01_schema_and_load.sql        # Create schema and load GTFS data
 │   ├── 02_preprocessing.sql          # Filter & transform mesh block boundaries
