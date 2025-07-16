@@ -6,18 +6,19 @@ This data engineering project analyzes the coverage and accessibility of public 
 
 ## 📁 Project Structure
 
+```text
 gtfs-melbourne-public-transport-etl/
-
 ├── sql/
-│   ├── 01_schema_and_load.sql        # Create schema and load GTFS data  
-│   ├── 02_preprocessing.sql          # Filter & transform mesh block boundaries  
-│   ├── 03_analysis_queries.sql       # Gap & coverage analysis, vehicle density  
-│   └── 04_helpers.sql                # Calendar flags, enriched joins  
+│   ├── 01_schema_and_load.sql        # Create schema and load GTFS data
+│   ├── 02_preprocessing.sql          # Filter & transform mesh block boundaries
+│   ├── 03_analysis_queries.sql       # Gap & coverage analysis, vehicle density
+│   └── 04_helpers.sql                # Calendar flags, enriched joins
 ├── appendix/
-│   └── Report.pdf                    # Original project report with visuals & context  
-├── README.md                         # Project overview and usage  
-├── LICENSE                           # MIT License  
-└── .gitignore                        # Common ignore rules  
+│   └── Report.pdf                    # Original project report with visuals & context
+├── README.md                         # Project overview and usage
+├── LICENSE                           # MIT License
+└── .gitignore                        # Common ignore rules
+```
 
 ---
 
